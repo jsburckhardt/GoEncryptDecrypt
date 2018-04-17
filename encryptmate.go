@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	key := "123"
+	key := "1234"
 
 	//for {
 	fmt.Print("hello my friend" + key)
