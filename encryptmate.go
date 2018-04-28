@@ -69,7 +69,7 @@ func decrypt(cipherstring string, keystring string) string {
 }
 
 func main() {
-	key := "YCbM/d49s5CiDQzr/bXLZg=="
+	key := os.Getenv("GO_ENCRYPTION_KEY")
 
 	for {
 		fmt.Print("What would you like to do ? \n")
